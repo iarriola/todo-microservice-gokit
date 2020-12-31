@@ -6,8 +6,9 @@ A simple microservice with Go and Go Kit. This project has been constructed maki
 ```
 .
 ├── README.md
+├── data (flyway migration)
 ├── docker-compose.yml
-└── tasks (module)
+└── tasks
     ├── Dockerfile
     ├── cmd
     ├── go.mod
