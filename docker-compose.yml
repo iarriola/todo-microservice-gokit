@@ -1,0 +1,11 @@
+version: "2"
+services:
+  tasks:
+    build:
+      context: ./tasks
+    container_name: tasks
+    restart: always
+    volumes:
+    - .:/go/src/github.com/iarriola/todo-microservice-gokit
+    ports:
+    - 8800:8081
