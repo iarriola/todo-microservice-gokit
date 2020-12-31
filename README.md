@@ -1,6 +1,20 @@
 # todo-microservice-gokit
-A simple microservice with Go and Go Kit
+A simple microservice with Go and Go Kit. This project has been constructed making used of 
+[GoKit CLI](https://github.com/kujtimiihoxha/kit).
 
+# Project structure
+```
+.
+├── README.md
+├── docker-compose.yml
+└── tasks (module)
+    ├── Dockerfile
+    ├── cmd
+    ├── go.mod
+    ├── go.sum
+    ├── pkg
+    └── vendor
+```
 # How to run
 - Execute `go run tasks/cmd/main.go`
 - Execute `curl -XPOST localhost:8081/create -d '{"task":"test"}'`
